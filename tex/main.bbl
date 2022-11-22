@@ -16,5 +16,164 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{LightInTheOceanHawaiiEdu}{misc}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{note}{[Online; accessed 22. Nov. 2022]}
+      \field{title}{{Light in the Ocean {$\vert$} manoa.hawaii.edu/ExploringOurFluidEarth}}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://manoa.hawaii.edu/exploringourfluidearth/physical/ocean-depths/light-ocean
+      \endverb
+      \verb{url}
+      \verb https://manoa.hawaii.edu/exploringourfluidearth/physical/ocean-depths/light-ocean
+      \endverb
+    \endentry
+    \entry{7732989}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=58ef30159a40139f51c8605979d5ffb5}{%
+           family={Schmid},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c3d78326e8f22834112175b43fca4dad}{%
+           family={Richner},
+           familyi={R\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=6d7b7f6bb5dbf86d9d68a49c5b10df60}{%
+           family={Mangold},
+           familyi={M\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=40d51bccc2dadcd0a6610d50517b943e}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={Thomas\bibnamedelima R.},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c62ff16c17eab2a11f4c75e3ada08c31}
+      \strng{fullhash}{2b026de53560f35969e4b198cbf7485f}
+      \strng{bibnamehash}{c62ff16c17eab2a11f4c75e3ada08c31}
+      \strng{authorbibnamehash}{c62ff16c17eab2a11f4c75e3ada08c31}
+      \strng{authornamehash}{c62ff16c17eab2a11f4c75e3ada08c31}
+      \strng{authorfullhash}{2b026de53560f35969e4b198cbf7485f}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 13th Annual IEEE International Conference on Sensing, Communication, and Networking (SECON)}
+      \field{title}{EnLighting: An Indoor Visible Light Communication System Based on Networked Light Bulbs}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/SAHCN.2016.7732989
+      \endverb
+    \endentry
+    \entry{10.1145/2491288.2491293}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=58ef30159a40139f51c8605979d5ffb5}{%
+           family={Schmid},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8d1e8f00fde4c8a49f9408aa2e180b8c}{%
+           family={Corbellini},
+           familyi={C\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6d7b7f6bb5dbf86d9d68a49c5b10df60}{%
+           family={Mangold},
+           familyi={M\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=40d51bccc2dadcd0a6610d50517b943e}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={Thomas\bibnamedelima R.},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Bangalore, India}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{c62ff16c17eab2a11f4c75e3ada08c31}
+      \strng{fullhash}{292f3edffb7a49f9fb363f4be1f4c978}
+      \strng{bibnamehash}{c62ff16c17eab2a11f4c75e3ada08c31}
+      \strng{authorbibnamehash}{c62ff16c17eab2a11f4c75e3ada08c31}
+      \strng{authornamehash}{c62ff16c17eab2a11f4c75e3ada08c31}
+      \strng{authorfullhash}{292f3edffb7a49f9fb363f4be1f4c978}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Fourteenth ACM International Symposium on Mobile Ad Hoc Networking and Computing}
+      \field{isbn}{9781450321938}
+      \field{series}{MobiHoc '13}
+      \field{title}{LED-to-LED Visible Light Communication Networks}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/2491288.2491293
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/2491288.2491293
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/2491288.2491293
+      \endverb
+      \keyw{free-space optics,MAC protocol,visible light communication}
+    \endentry
+    \entry{20.500.11850/125771}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=18e1f304e3e5bb730519c55576828aef}{%
+           family={Schmid},
+           familyi={S\bibinitperiod},
+           given={Stefan\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {ETH Zurich}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Zürich}%
+      }
+      \list{publisher}{1}{%
+        {ETH Zürich}%
+      }
+      \strng{namehash}{18e1f304e3e5bb730519c55576828aef}
+      \strng{fullhash}{18e1f304e3e5bb730519c55576828aef}
+      \strng{bibnamehash}{18e1f304e3e5bb730519c55576828aef}
+      \strng{authorbibnamehash}{18e1f304e3e5bb730519c55576828aef}
+      \strng{authornamehash}{18e1f304e3e5bb730519c55576828aef}
+      \strng{authorfullhash}{18e1f304e3e5bb730519c55576828aef}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Software-Defined Low-Complex Visible Light Communication Networks}
+      \field{type}{Doctoral Thesis}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.3929/ethz-a-010811920
+      \endverb
+      \keyw{DATA COMMUNICATIONS (COMPUTER SYSTEMS); DATENKOMMUNIKATION (COMPUTERSYSTEME); LEUCHTDIODEN,LED (ELEKTRONIK); SIGNALÜBERTRAGUNG + DATENKOMMUNIKATION (NACHRICHTENTECHNIK); SIGNAL TRANSMISSION + DATA COMMUNICATION (TELECOMMUNICATIONS); LIGHT EMITTING DIODES,LED (ELECTRONICS)}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
