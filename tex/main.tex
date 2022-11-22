@@ -69,17 +69,17 @@
 \begin{problem}
 	What is the bandwidth of the optical spectrum (measured in Hz)?
 \end{problem}
-The visible spectrum, sometimes referred to as opical spectrum, corresponds to a band in the vicinity of 400–789 THz \cite{20.500.11850/125771}.
+The optical or visible spectrum corresponds to a band in the vicinity of 400 to 789 THz \cite{20.500.11850/125771}.
 
 \begin{problem}
 	Is the visible spectrum regulated?
 \end{problem}
-Yes, the FCC\footnote{https://www.fcc.gov/licensing} is responsible for managing and licensing the electromagnetic spectrum for commercial users and for non-commercial users including: state, county and local governments.
+There is the Federal Communications Commission (FCC\footnote{https://www.fcc.gov/licensing}) which is responsible for managing and licensing the electromagnetic spectrum for commercial users and for non-commercial users including: state, county and local governments. However, there is no regulation concerning frequency for the visible spectrum.
 
 \begin{problem}
 	What is the difference between infrared and visible light?
 \end{problem}
-Visible light has a wavelength that ranges from 380 nm to 750 nm on the electromagnetic spectrum while infrared light is beyond it, ranging from 700 nm to 1 mm, the beginning of the non-visible portion of the spectrum. As a result, infrared light cannot be seen by the human eye except with special technical equipment. 
+Visible light has a wavelength that ranges from 380 nm to 750 nm on the electromagnetic spectrum while infrared light is beyond it. Infrared light has a frequency range of 300 GHz to 400 THz and a wavelenegth ranging from 700 nm to 1 mm, the beginning of the non-visible portion of the spectrum. As a result, infrared light cannot be seen by the human eye except with special technical equipment. 
 \begin{figure}[!htbp] 
 	\centering
 	\includegraphics[width=1\columnwidth]{figures/electromagnetic_spectrum.png}
@@ -91,16 +91,20 @@ Visible light has a wavelength that ranges from 380 nm to 750 nm on the electrom
 \begin{problem}
 	Can infrared light penetrate water? Can visible light?
 \end{problem}
-Light penetrating a water surface is scattered and absorbed as it passes downward. Infrared light is absorbed by water more strongly than visible light. Water absorbs infrared light quickly and only little infrared light penetrates more than 2 m.  
-Within the first 10 m, water absorbs more than 50 percent of the total visible light energy. Hence, light is obliterated rather quickly even in clear water. Only about 25 percent of incident light reaches a depth of 10 m in the open ocean, where water is very clear \cite{LightInTheOceanHawaiiEdu}.
+Light penetrating a water surface is scattered and absorbed as it passes downward. As seen in figure \ref{fig:water_absorption}, the visible spectrum is absorbed the most in water. Within the first 10 m, water absorbs more than 50 percent of the visible light energy. Infrared light is absorbed a lot less and is therefore able to penetrate water much deeper.
+
+\begin{figure}[!htbp] 
+	\centering
+	\includegraphics[width=0.75\columnwidth]{figures/water_absorption.png}
+	\caption{Liquid water absorption spectrum across a wide wavelength range (image from https://en.wikipedia.org/wiki/Electromagnetic\_absorption\_by\_water).}
+	\label{fig:water_absorption}
+\end{figure}
+\FloatBarrier. 
 
 \begin{problem}
 	What are the benefits of using an LED instead of a photodiode as a receiver in consumer electronics?
 \end{problem}
-Using an LED as a receiver in consumer electronics enables low bitrate wireless adhoc networking \cite{10.1145/2491288.2491293}.d
-To transmit and receive, an LED can be connected directly to the microcontroller's pins. If a photodiode is utilized for receiving, it must either be connected directly to one of the analog pins on the microcontroller (where it is then sampled by the firmware of the controller) or it can be routed through an amplifier first \cite{7732989}. Therefore, it is easier to use  a LED instead of a photodiode as a receiver. 
-
-
+The price of consumer gadgets is quite important. We do not need to include extra hardware in the form of a photodiode if the LED can still be used as a receiver. This significantly lowers costs, especially for gadgets where it is expensive to add a hole for a photodiode. Using an LED, we simply have to change the microchip without any additional costs.
 
 %----------------------------------------------------------------------------------------
 

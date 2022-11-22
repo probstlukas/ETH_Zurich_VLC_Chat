@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.5)  22 NOV 2022 13:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.5)  22 NOV 2022 13:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -719,36 +719,50 @@ ne 85.
 (pdftex.def)             Requested size: 455.24411pt x 243.55978pt.
  [1
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2 <./f
-igures/electromagnetic_spectrum.png>]
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<figures/water_absorption.png, id=18, 763.1712pt x 499.1448pt>
+File: figures/water_absorption.png Graphic file (type png)
+<use figures/water_absorption.png>
+Package pdftex.def Info: figures/water_absorption.png  used on input line 98.
+(pdftex.def)             Requested size: 341.43307pt x 223.31068pt.
+ [2 <./figures/electromagnetic_spectrum.png> <./figures/water_absorption.png>] 
+[3]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-25.
+29.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (10.7106pt too wide) in paragraph at lines 126--126
+Overfull \hbox (10.7106pt too wide) in paragraph at lines 130--130
 \T1/ppl/m/n/12 Nov. 2022]. Nov. 2022. \T1/ppl/m/sc/12 url\T1/ppl/m/n/12 : []$\T
 1/cmtt/m/n/12 https : / / manoa . hawaii . edu / exploringourfluidearth /
  []
 
-[3
+[4
 
 ] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19958 strings out of 475071
- 350186 string characters out of 5778910
- 1097941 words of memory out of 5000000
- 41125 multiletter control sequences out of 15000+600000
+ 19968 strings out of 475071
+ 350449 string characters out of 5778910
+ 1098065 words of memory out of 5000000
+ 41132 multiletter control sequences out of 15000+600000
  501136 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,12n,77p,677b,1306s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,12n,77p,677b,1305s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
@@ -756,10 +770,10 @@ ive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texliv
 e/2022/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2022/
 texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2022/texmf-d
 ist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (3 pages, 210182 bytes).
+Output written on main.pdf (4 pages, 304174 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
