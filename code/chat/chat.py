@@ -32,22 +32,19 @@ def serial_setup(port: str, address: str) -> Serial:
         print(f"Could not open port {port}. Please try again.")
         exit()
     sleep(2)
-    # Set the address
+    # Set the device address (in hex)
     connection.write(enc(f"a[{address}]\n"))
     sleep(0.1)
     assert dec(connection.read_until()) == f"a[{address}]\n"
-    # Set the retransmission limit
+    # Set the # of retransmissions to 5
     connection.write(enc("c[1,0,5]\n"))
     sleep(0.1)
     assert dec(connection.read_until()) == "c[1,0,5]\n"
-    # Set the FEC threshold
+    # Set the FEC threshold to 30
     connection.write(enc("c[0,1,30]\n"))
     sleep(0.1)
     assert dec(connection.read_until()) == "c[0,1,30]\n"
     return connection
-
-
-
 
 try:
     input_port = input(f"Type in the serial port to be used (default is {DEFAULT_PORT}): ") or DEFAULT_PORT
