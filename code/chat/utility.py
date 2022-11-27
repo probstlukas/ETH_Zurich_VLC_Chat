@@ -5,7 +5,7 @@ from glob import glob
 def default_port():  
     # Windows
     if platform.startswith("win"):
-        return "COM4"
+        return "COM4"#may also be COM9 
     # Linux
     elif platform.startswith("linux"):
         return next(iter(glob("/dev/tty[A-Za-z]*")), "none")
