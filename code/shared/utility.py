@@ -10,8 +10,7 @@ BAUDRATE = 115200
 def default_port():  
     # Windows
     if platform.startswith("win"):
-        # TODO: Maybe COM9 instead of COM4?
-        return "COM4"
+        return "COM9"
     # Linux
     elif platform.startswith("linux"):
         return next(iter(glob("/dev/tty[A-Za-z]*")), "none")
@@ -34,7 +33,7 @@ def serial_config(port: str, address: str) -> Serial:
     try:
         connection = Serial(port=port, baudrate=BAUDRATE, timeout=1)
     except:
-        print(f"Could not open port {port}. Please try again.")
+        print(f"Port {port} could not be opened.")
         exit()
     sleep(2)
     # Set the device address (in hex)

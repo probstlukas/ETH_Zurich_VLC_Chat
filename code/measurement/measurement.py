@@ -18,19 +18,15 @@ by Mélina Sladic & Lukas Probst.
 Lets you measure the performance of VLC at different distances & find out the max range.\n
 """)
 
-### Settings
-BAUDRATE = 115200
 ### User input
 DEFAULT_PORT = default_port()
-
 DEFAULT_PAYLOAD_SIZE = 100 # in byte
-DEFAULT_DISTANCE = 3 # in cm
+DEFAULT_DISTANCE = 2 # in cm
 DEFAULT_MEASUREMENT_TIME = 20 # in s
 
 try:
     port = input(f"Enter the serial port to be used (default is {DEFAULT_PORT}): ") or DEFAULT_PORT
     is_measuring = input(f"Is this device used as a transmitter and does the measuring? ").strip().lower() == "yes"
-    print(f"{is_measuring}")
     address = "AA" if is_measuring else "AB"
 
     if (is_measuring):

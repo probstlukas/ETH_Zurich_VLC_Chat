@@ -1,6 +1,6 @@
 from sys import path
 # adding shared folder to the system path
-path.append("../utility")
+path.append("../shared")
 from serial import Serial
 from utility import dec, enc
 from numpy import std, sqrt, mean
@@ -36,8 +36,6 @@ class Analyzer():
 
         while self.sent_payloads < 30 and self.elapsed_time_ns < self.measurement_time_ns:
             sleep(0.01)
-            #print(f"{self.sent_payloads}")
-            #print(f"{self.elapsed_time_ns}")
             t0 = time_ns()
             self.serial.write(bytes_to_send)
             while self.receive() != "m[D]":
@@ -50,7 +48,6 @@ class Analyzer():
         # Wait for last ACK
         while self.receive() != "":
             pass
-
 
     def save_results(self):
         standard_deviation = std(self.delays) / 1_000_000_000
@@ -72,8 +69,8 @@ class Analyzer():
         print(f"Acknowledged {self.ack_payloads} / {self.sent_payloads} payloads")
         print(f"Success rate: {success_rate * 100}%")
 
-        # open the file in the write mode
-        with open(f"results/{self.payload_size}B-{self.distance}cm.csv", "w") as f:
+         # open the file in the write mode
+        with open(f"results/{self.payload_size}B-{self.distance}cm.csv", "w+") as f:
             (cl, cr) = confidence_interval
             # write to the csv file
             f.write(", ".join([str(i) for i in [standard_deviation, data_throughput, mean_packet_delay, success_rate, cl, cr]]))
