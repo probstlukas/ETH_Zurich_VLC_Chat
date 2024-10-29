@@ -19,16 +19,6 @@ The project involved:
 - Developing a Python-based chat application that facilitates text-based communication over VLC.
 - Exploring the limitations and challenges of VLC, including data transfer rates, noise interference, and light modulation.
 
-## Getting Started
+## Documentation
+For complete technical details and findings from the project, refer to the [Assignment Report](WNMC_assignment05.pdf). 
 
-### Prerequisites
-
-To run this project, you’ll need:
-
-- **Arduino IDE** for uploading code to the Arduino board.
-- **Python 3.9+** and the necessary libraries to run the chat application.
-  
-Install Python dependencies with:
-
-```bash
-pip install -r requirements.txt
